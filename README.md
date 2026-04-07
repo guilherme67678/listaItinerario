@@ -1,3 +1,20 @@
+Descrição
+Sistema em C++ para gerenciar paradas de uma linha de ônibus usando lista duplamente encadeada.
+
+Requisitos
+
+GCC 9.0 ou superior
+VSCode com extensão C/C++ (Microsoft)
+No Windows: extensão WSL + wsl --install no PowerShell
+
+Compilação e Execução
+bashg++ -std=c++17 -o programa main.cpp src/list.cpp -I include
+./programa        # Linux
+.\programa.exe    # Windows
+Testes:
+bashg++ -std=c++17 -o tests tests/tests.cpp src/list.cpp -I include
+./tests        # Linux
+.\tests.exe    # Windows
 
 ## 1. Qual variação de lista foi escolhida?
 
